@@ -11,16 +11,16 @@
 
 import FirstComponent from './components/first-component'
 import SubjectList from './components/subject-list'
-import StudentCard from './components/student-card'
+import StudentList from './Pages/student-list'
 
 const App = () => {
   return (
     <div>
-      <FirstComponent />
       <h1>Alunos</h1>
-      <StudentCard name='Nome do Aluno'/>
-      <StudentCard name='Nome do Aluno2'/>
-      <StudentCard />
+      <StudentList />
+
+      {/* <FirstComponent /> */}
+      
       <h1>Disciplinas</h1>
       <SubjectList 
         name='Arquitetura Front end'  

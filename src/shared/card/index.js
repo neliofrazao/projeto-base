@@ -4,7 +4,7 @@ const Card = ({title, children}) => (
     <h3 className="subject-card__title">{title}</h3>
     <hr />
     {children}
-    <p>Carregar Depois</p>
+    <p></p>
   </div>
 )
 
